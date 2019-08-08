@@ -85,7 +85,7 @@ analytics:
 # Site Author
 author:
   name             : "Swapnil"
-  avatar           : "/images/Swap" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/images/Swap.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "A software engineer turned data science professional, avid photographer."
   location         : "Seattle"
   email            : "patilss@mail.uc.edu"
