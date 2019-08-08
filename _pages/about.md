@@ -9,12 +9,14 @@ header:
   float: left;
   width: 50%;
   text-align: left;
+  font-size: 4em;
 }
 
 .column-right{
   float: right;
   width: 50%;
   text-align: right;
+  font-size: 4em;
 }
 </style>
 Hello! I am Swapnil, a Software Engineer turned analytics professional.
