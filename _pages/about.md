@@ -2,7 +2,7 @@
 title: "About"
 permalink: /about/
 header:
-  image: "/images/coverImage.jpg"
+  image: "/images/nyskyline.jpg"
 ---
 <style>
 .column-left{
@@ -35,9 +35,6 @@ Academic Background
 
 -   **Bachelor of Engineering** in *Computer Science* at [Government
     College of Engineering](http://www.geca.ac.in/)
-
-<img style="float: right;" src="/images/Swap.png" width="275px"; margin: auto;" />
-
 
 Professional Background
 =======================
