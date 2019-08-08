@@ -36,28 +36,29 @@ Academic Background
 -   **Bachelor of Engineering** in *Computer Science* at [Government
     College of Engineering](http://www.geca.ac.in/)
 
-<img src="/images/Swap.png" width="275px" style="display: block; margin: auto;" />
+<img style="float: right;" src="/images/Swap.png" width="275px"; margin: auto;" />
+
 
 Professional Background
 =======================
 
-Over the years, I have worked in air logitics, supply chain, marketing
+Over the years, I have worked in air logistics, supply chain, marketing
 and eCommerce industries.
 
 **Senior Marketing Analyst- Strategy, Lifecycle and Customer Experience,
 zulily -**
 
--   Strategizing, management, financial modelling and reporting of
+-   Strategising, management, financial modelling and reporting of
     *zulily’s* product returns program
--   Utilized analytics to recommend product returns process improvements
+-   Utilise analytics to recommend product returns process improvements
     resulting in $8.1M annual cost savings
 -   Performing experiment design, power analysis and running A/B tests
     to improve customer experience and prevent churn
 -   Providing analytics support and building audience for Email and
     Offers campaigns
--   Statistical analysis of user behavior on web and app using
+-   Statistical analysis of user behaviour on web and app using
     clickstream, orders and customer data
--   Running price sensitivity tests for offers audience to optimize
+-   Running price sensitivity tests for offers audience to optimise
     offers spend
 -   Answering ad-hoc business questions using advanced analytics
     techniques
@@ -148,7 +149,7 @@ Analytical Skills-
 -   Hypothesis Testing
 -   Association Rules
 -   Classification
--   Optimization
+-   Optimisation
 -   Statistical Modeling
 -   Bagging, Boosting
 -   Reporting and Visualization
