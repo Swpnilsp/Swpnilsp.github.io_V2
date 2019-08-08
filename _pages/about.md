@@ -27,7 +27,7 @@ changed Font!
 
 **[Connect with me here!](http://www.linkedin.com/in/swapnilsp)**
 
-Academic Background
+### Academic Background
 ===================
 
 -   **M.S. in Business Analytics** at [University of
@@ -39,7 +39,7 @@ Academic Background
 -   **Bachelor of Engineering** in *Computer Science* at [Government
     College of Engineering](http://www.geca.ac.in/)
 
-Professional Background
+### Professional Background
 =======================
 
 Over the years, I have worked in air logistics, supply chain, marketing
@@ -122,7 +122,7 @@ the data-driven project -
 -   Performed end-to-end white box testing of IATA air cargo message
     database
 
-Tools and Languages
+### Tools and Languages
 ===================
 
 -   R Programming
@@ -133,12 +133,12 @@ Tools and Languages
 -   Google Compute Engine
 -   SAS
 
-Skills
+### Skills
 ======
 
 On a day-to-day basis, I mostly work on R, SQL, Python and Tableau
 
-Analytical Skills-
+### Analytical Skills-
 
 -   Simulation
 -   Exploratory Data Analysis
