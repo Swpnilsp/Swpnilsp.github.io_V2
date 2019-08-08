@@ -2,9 +2,7 @@
 title: "About"
 permalink: /about/
 header:
-  image: "/images/zakim.jpg"
+  image: "/images/coverImage.jpg"
 ---
 
-I'm a senior data scientist who excels at data wrangling, machine learning, exploratory analysis, and data visualizations.
-
-Etc, etc, etc
+I am a software engineer turned data science professional. I am currently working with [zulily](https://www.zulily.com/), a Seattle based eCommerce company in marketing strategy team.
