@@ -3,6 +3,7 @@ title: "About"
 permalink: /about/
 header:
   image: "/images/nyskyline.jpg"
+
 ---
 <style>
 .column-left{
@@ -16,37 +17,32 @@ header:
   float: right;
   width: 50%;
   text-align: right;
-  font-size: 5em;
+  font-size: 2em;
 }
+
 </style>
-Hello! I am Swapnil, a Software Engineer turned analytics professional.
-I have a graduate degree in Business Analytics and enjoy solving complex
-business problems using data. I enjoy photography and cannot sleep
-without watching at least one episode of *The Office!*
-changed Font!
 
-### **[Connect with me here!](http://www.linkedin.com/in/swapnilsp)**
+Hello! I am Swapnil, a Software Engineer turned analytics professional. I have a graduate degree in Business Analytics and enjoy solving complex business problems using data. I enjoy photography and cannot sleep without watching at least one episode of *The Office!*
 
-## Academic Background
-===================
 
--   ### **M.S. in Business Analytics** at [University of
-    Cincinnati](https://business.uc.edu/graduate/masters/ms-business-analytics.html)
+##### **[Connect with me here!](http://www.linkedin.com/in/swapnilsp)**
 
--   ### **Post Graduate Certificate in Finance and International Trade** at
+#### Academic Background
+
+
+-   M.S. in Business Analytics at [University of Cincinnati](https://business.uc.edu/graduate/masters/ms-business-analytics.html)
+
+-   Post Graduate Certificate in Finance and International Trade at
     [Indian Institute of Foreign Trade](http://www.iift.edu)
 
--   ### **Bachelor of Engineering** in *Computer Science* at [Government
-    College of Engineering](http://www.geca.ac.in/)
+-   Bachelor of Engineering in *Computer Science* at [Government College of Engineering](http://www.geca.ac.in/)
 
-## Professional Background
-=======================
+#### Professional Background
 
-Over the years, I have worked in air logistics, supply chain, marketing
-and eCommerce industries.
 
-### **Senior Marketing Analyst- Strategy, Lifecycle and Customer Experience,
-zulily -**
+Over the years, I have worked in air logistics, supply chain, marketing and eCommerce industries.
+
+ **Senior Marketing Analyst- Strategy, Lifecycle and Customer Experience, zulily -**
 
 -   Strategising, management, financial modelling and reporting of
     *zulily’s* product returns program
@@ -122,9 +118,7 @@ the data-driven project -
 -   Performed end-to-end white box testing of IATA air cargo message
     database
 
-## Tools and Languages
-===================
-
+### Tools and Languages
 -   R Programming
 -   SQL
 -   Python
@@ -133,13 +127,12 @@ the data-driven project -
 -   Google Compute Engine
 -   SAS
 
-## Skills
-======
+### Skills
+
 
 On a day-to-day basis, I mostly work on R, SQL, Python and Tableau
 
-### Analytical Skills-
-
+####  Analytical Skills-
 -   Simulation
 -   Exploratory Data Analysis
 -   Regression
