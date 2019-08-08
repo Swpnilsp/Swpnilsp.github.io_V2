@@ -9,20 +9,21 @@ header:
   float: left;
   width: 50%;
   text-align: left;
-  font-size: 4em;
+  font-size: 3em;
 }
 
 .column-right{
   float: right;
   width: 50%;
   text-align: right;
-  font-size: 4em;
+  font-size: 5em;
 }
 </style>
 Hello! I am Swapnil, a Software Engineer turned analytics professional.
 I have a graduate degree in Business Analytics and enjoy solving complex
 business problems using data. I enjoy photography and cannot sleep
 without watching at least one episode of *The Office!*
+changed Font!
 
 **[Connect with me here!](http://www.linkedin.com/in/swapnilsp)**
 
