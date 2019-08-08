@@ -5,15 +5,21 @@
 $(document).ready(function() {
   // Sticky footer
   var bumpIt = function() {
-    $("body").css("margin-bottom", $(".page__footer").outerHeight(true));
-  };
+      $("body").css("margin-bottom", $(".page__footer").outerHeight(true));
+    },
+    didResize = false;
 
   bumpIt();
-  $(window).resize(
-    jQuery.throttle(250, function() {
+
+  $(window).resize(function() {
+    didResize = true;
+  });
+  setInterval(function() {
+    if (didResize) {
+      didResize = false;
       bumpIt();
-    })
-  );
+    }
+  }, 250);
 
   // FitVids init
   $("#main").fitVids();
@@ -45,54 +51,19 @@ $(document).ready(function() {
     $(".author__urls-wrapper button").toggleClass("open");
   });
 
-  // Close search screen with Esc key
-  $(document).keyup(function(e) {
-    if (e.keyCode === 27) {
-      if ($(".initial-content").hasClass("is--hidden")) {
-        $(".search-content").toggleClass("is--visible");
-        $(".initial-content").toggleClass("is--hidden");
-      }
-    }
-  });
-
   // Search toggle
   $(".search__toggle").on("click", function() {
     $(".search-content").toggleClass("is--visible");
     $(".initial-content").toggleClass("is--hidden");
     // set focus on input
     setTimeout(function() {
-      $(".search-content input").focus();
+      $("#search").focus();
     }, 400);
   });
 
-  // Smooth scrolling
-  var scroll = new SmoothScroll('a[href*="#"]', {
-    offset: 20,
-    speed: 400,
-    speedAsDuration: true,
-    durationMax: 500
-  });
+  // init smooth scroll
+  $("a").smoothScroll({ offset: -20 });
 
-  // Gumshoe scroll spy init
-  if($("nav.toc").length > 0) {
-    var spy = new Gumshoe("nav.toc a", {
-      // Active classes
-      navClass: "active", // applied to the nav list item
-      contentClass: "active", // applied to the content
-
-      // Nested navigation
-      nested: false, // if true, add classes to parents of active link
-      nestedClass: "active", // applied to the parent items
-
-      // Offset & reflow
-      offset: 20, // how far from the top of the page to activate a content area
-      reflow: true, // if true, listen for reflows
-
-      // Event support
-      events: true // if true, emit custom events
-    });
-  }
-  
   // add lightbox class to all image links
   $(
     "a[href$='.jpg'],a[href$='.jpeg'],a[href$='.JPG'],a[href$='.png'],a[href$='.gif']"
