@@ -4,6 +4,10 @@ main:
     url: /about/
   - title: "Data Wrangling Projects"
     url: /data-wrangling/
+  - title: "Test2"
+    url: /test2/
+  - title: "Test"
+    url: /test/
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
