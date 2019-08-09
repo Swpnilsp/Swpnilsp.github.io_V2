@@ -1,33 +1,22 @@
 ---
 title: "Data Wrangling Project"
 date: 2017-02-12
-tags: [data wrangling, data science, messy data]
+tags: [data wrangling, data science, messy data, Fordgobike]
 header:
-  image: "/images/nyskyline.jpg"
-excerpt: "Data Wrangling, Data Science, Messy Data"
+  image: "/images/ford.jpg"
+excerpt: "Exploratory data analysis of SF Bay area Ford Gobike"
 mathjax: "true"
 ---
 
-```{r setup, include=FALSE,warning=FALSE,warning=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
-
-
-## San Fransisco Bay Area Bike Share Data Analysis {.tabset}
+## San Fransisco Bay Area Bike Share Data Analysis
 
 Exploratory data analysis of SF Bay area **[Fordgobike](https://www.fordgobike.com/)** bike share data.
 
 ### 1. Introduction
 
-```{r, fig.align="center",out.width = "3000px",out.height="700px", echo=FALSE}
-knitr::include_graphics("https://d21xlh2maitm24.cloudfront.net/fgb/hero-image-4.jpg?mtime=20170531210942")
-```
-
-
 SF Bay area bike share is a service that provides an easy, affordable and environment-friendly mode of commute in the SF Bay area. The data can be analysed to find out hidden patterns.
 
 **Following are the major questions that can be answered from the given data :**
-
 
 * Does the utilization of bike stations change during different times of the day?
 * Is the service more utilized in some cities than others?
@@ -49,7 +38,7 @@ I plan to clean, aggregate, summarize and visualize the data as and when require
 
 Following is the list of packages that are required for the project. A brief description of the reason behind using the package is written in comments.
 
-```{r echo=TRUE, message=FALSE,warning=FALSE,fig.width=10 }
+``` r
 library(data.table) # For faster reading of large data
 library(leaflet) # For geographical maps and analysis
 library(sqldf) # For writing SQL join statements in the code
@@ -64,7 +53,7 @@ library(DT) # For rendering R objects as HTML
 
 ```
 
-### 3. Data Preparation {.tabset}
+### 3. Data Preparation
 
 The data used for this project is taken from Kaggle. **[Fordgobike](https://www.fordgobike.com/)** regularly releases data relating to bike sharing and this data has been transformed by Kaggle team for the analysis. The data under the discussion is gathered over the period of three years - *2013,2014,2015*.
 Original dataset and the description can be found **[here](https://www.kaggle.com/benhamner/sf-bay-area-bike-share)**
@@ -85,14 +74,14 @@ The data has following four tables-
 
 The origina data has been imported from Kaggle and loaded into the dataframes. Below is the glimpse of original datasets.
 
-```{r echo=FALSE, message=FALSE,warning=FALSE,fig.width=10}
-#station <- fread("/Users/swapnilpatil/Study/MS-Bana/Data Wrangling with R/DataSets/Project/station.csv",showProgress = FALSE)
-#status <- fread("/Users/swapnilpatil/Study/MS-Bana/Data Wrangling with R/DataSets/Project/status.csv",showProgress = FALSE)
-#trip <- fread("/Users/swapnilpatil/Study/MS-Bana/Data Wrangling with R/DataSets/Project/trip.csv",showProgress = FALSE)
-#weather <- fread("/Users/swapnilpatil/Study/MS-Bana/Data Wrangling with R/DataSets/Project/weather.csv",showProgress = FALSE)
-load("allData.RData")
+``` r
+station <- fread("station.csv",showProgress = FALSE)
+status <- fread("status.csv",showProgress = FALSE)
+trip <- fread("trip.csv",showProgress = FALSE)
+weather <- fread("weather.csv",showProgress = FALSE)
 ```
-```{r echo=TRUE, message=FALSE,warning=FALSE}
+
+``` r
 datatable(head(station,10))
 datatable(head(status,10))
 datatable(head(trip,10))
